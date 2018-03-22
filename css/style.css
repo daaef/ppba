@@ -240,7 +240,7 @@ body{
 
 
 footer{
-    height: 90vh;
+    min-height: 90vh;
 }
 /*
 #event h3{
@@ -285,16 +285,15 @@ footer{
 }
 
 .sec{
-    padding-top: 200px;
-}
-
-.left .cont, .sec{
     padding-top: 40vh;
 }
+.push{
+    padding-top: 35vh;
+}
 
-@media (max-width: 1071px) {
-    .left .cont, .sec{
-        padding-top: 20vh;
+@media (max-width: 959px) {
+    .push, .sec{
+        padding-top: 10vh;
     }
 }
 
@@ -312,9 +311,16 @@ footer{
     height: 150px;
 }
 
+@media (max-width: 580px) {
+    .left img{
+        height: auto!important;
+        width: 90%;
+    }
+}
+
+
 .left h1{
     color: #ffffff;!important;
-    width: 150px;
     position: relative;
 }
 .twice {
@@ -396,7 +402,7 @@ footer{
 
 
 .slide{
-    height: 57vh!important;
+    min-height: 57vh!important;
 }
 
 .caption .uk-slideshow-items>li>div{
@@ -486,7 +492,7 @@ footer{
         transform: translateY(-20%);
     }
 }
-@media (min-width: 730px) {
+@media (min-width: 990px) {
     .hidde {
         display: none !important
     }
@@ -495,7 +501,7 @@ footer{
     }
 }
 
-@media (max-width: 729px) {
+@media (max-width: 989px) {
     .uk-navbar-right > .uk-navbar-nav > li > a {
         display: none
     }
