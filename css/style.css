@@ -170,11 +170,6 @@ body{
 
 .els .uk-first-column{
     padding-left: 0;
-    background: white;
-    width: 115px;
-    border-radius: 50%;
-    position: relative;
-    margin-left: 5%;
 }
 
 .uk-navbar-item, .uk-navbar-nav>li>a, .uk-navbar-toggle,.uk-nav li>a{
