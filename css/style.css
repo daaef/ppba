@@ -10,6 +10,47 @@
     src: url("../font/LANENAR.ttf")
 }
 
+@keyframes move-right {
+    0%{
+        top: 0;
+        right: -50px;
+        z-index: -1;
+        opacity: 1;
+    }
+    50%{
+        top: 50vh;
+        right: 0px;
+        z-index: 0;
+        opacity: .3;
+    }
+    100%{
+        top: 100vh;
+        right: -50px;
+        z-index: -1;
+        opacity: .7;
+    }
+}
+@keyframes move-left {
+    0%{
+        top: 200vh;
+        left: -50px;
+        z-index: -1;
+        opacity: 1;
+    }
+    50%{
+        top: 100vh;
+        left: 0;
+        z-index: 0;
+        opacity: .3;
+    }
+    100%{
+        top: 0;
+        left: -50px;
+        z-index: -1;
+        opacity: .7;
+    }
+}
+
 * {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -76,6 +117,28 @@ canvas {
     vertical-align: bottom
 }
 
+.anim-right{
+    -webkit-animation-name: move-right;
+    -moz-animation-name: move-right;
+    -o-animation-name: move-right;
+    animation-name: move-right;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-duration: 30s;
+    position: absolute;
+    right: 0;
+}
+.anim-left{
+    -webkit-animation-name: move-right;
+    -moz-animation-name: move-right;
+    -o-animation-name: move-right;
+    animation-name: move-right;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-duration: 40s;
+    position: absolute;
+    left: 0;
+}
 
 nav.uk-navbar.uk-navbar-container.uk-navbar-default,.uk-navbar-sticky{
     background-color: #fff!important;
