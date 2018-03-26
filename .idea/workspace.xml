@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6df1a128-3f33-4261-91a9-7ee574ac5cb5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Hp.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/MLK.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/Paul-K-Chappell.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/nelman.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/slide1.jpg" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/img/._2.jpg" afterPath="$PROJECT_DIR$/img/._2.jpg" />
-      <change beforePath="$PROJECT_DIR$/img/._building.jpg" afterPath="$PROJECT_DIR$/img/._building.jpg" />
-      <change beforePath="$PROJECT_DIR$/img/._vol1.jpg" afterPath="$PROJECT_DIR$/img/._vol1.jpg" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,9 +29,14 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="993">
-              <caret line="103" column="91" lean-forward="false" selection-start-line="103" selection-start-column="91" selection-end-line="103" selection-end-column="91" />
-              <folding />
+            <state relative-caret-position="443">
+              <caret line="375" column="121" lean-forward="false" selection-start-line="375" selection-start-column="121" selection-end-line="375" selection-end-column="121" />
+              <folding>
+                <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -179,12 +173,12 @@
       <workItem from="1522019767864" duration="4259000" />
       <workItem from="1522074567871" duration="1098000" />
       <workItem from="1522077507111" duration="172000" />
-      <workItem from="1522077845239" duration="1217000" />
+      <workItem from="1522077845239" duration="1796000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30494000" />
+    <option name="totallyTimeSpent" value="31073000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1337" extended-state="6" />
@@ -355,9 +349,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="993">
-          <caret line="103" column="91" lean-forward="false" selection-start-line="103" selection-start-column="91" selection-end-line="103" selection-end-column="91" />
-          <folding />
+        <state relative-caret-position="443">
+          <caret line="375" column="121" lean-forward="false" selection-start-line="375" selection-start-column="121" selection-end-line="375" selection-end-column="121" />
+          <folding>
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
